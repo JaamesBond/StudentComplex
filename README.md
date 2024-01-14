@@ -13,7 +13,7 @@ Software required:
   - Any SSH client, MobaXterm was used in our case
 # Now let's get started
 On the RaspberryPi, you should have RaspbianOS installed. If not, there is a very good and clean tutorial [here](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system).
-Now let's proceed to the first step, setting up the backbone of the web server, a LAMP(Linux, Apache, MySQL, PHP) server. That is very straightforward to do, we just need the following commands.
-1. Before we start, let's update the Pi
-  ```bash
-  sudo apt update && sudo apt upgrade -y```
+
+Now let's proceed to the first step, setting up the backbone of the web server, a LAMP(Linux, Apache, MySQL, PHP) server. That is very straightforward to do and I found [this](https://randomnerdtutorials.com/raspberry-pi-apache-mysql-php-lamp-server/) amazing tutorial which helped us a lot.
+
+Now that the server is up and running, the next step is to set up Joomla!, which is a lighter variant of WordPress. It will allow us to easily deploy a good-looking interface while organising all the files nicely. For this part, 
