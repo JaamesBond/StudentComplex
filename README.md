@@ -15,4 +15,5 @@ Software required:
 On the RaspberryPi, you should have RaspbianOS installed. If not, there is a very good and clean tutorial [here](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system).
 Now let's proceed to the first step, setting up the backbone of the web server, a LAMP(Linux, Apache, MySQL, PHP) server. That is very straightforward to do, we just need the following commands.
 1. Before we start, let's update the Pi
-  `sudo apt update && sudo apt upgrade -y`
+  ```bash
+  sudo apt update && sudo apt upgrade -y```
