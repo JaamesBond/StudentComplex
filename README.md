@@ -21,4 +21,9 @@ Now let's proceed to the first step, setting up the backbone of the web server, 
 
 Now that the server is up and running, the next step is to set up Joomla!, which is a lighter variant of WordPress. It will allow us to easily deploy a good-looking interface while organising all the files nicely. For this part, we used the following commands:
 ```bash
+sudo wget https://github.com/joomla/joomla-cms/releases/download/3.6.3/Joomla_3.6.3-Stable-Full_Package.zip
+```
+```bash
+sudo unzip -x Joomla_3.6.3-Stable-Full_Package.zip
+```
 
