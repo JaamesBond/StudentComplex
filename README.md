@@ -19,4 +19,6 @@ On the RaspberryPi, you should have RaspbianOS installed. If not, there is a ver
 
 Now let's proceed to the first step, setting up the backbone of the web server, a LAMP(Linux, Apache, MySQL, PHP) server. That is very straightforward to do and I found [this](https://randomnerdtutorials.com/raspberry-pi-apache-mysql-php-lamp-server/) amazing tutorial which helped us a lot.
 
-Now that the server is up and running, the next step is to set up Joomla!, which is a lighter variant of WordPress. It will allow us to easily deploy a good-looking interface while organising all the files nicely. For this part, 
+Now that the server is up and running, the next step is to set up Joomla!, which is a lighter variant of WordPress. It will allow us to easily deploy a good-looking interface while organising all the files nicely. For this part, we used the following commands:
+```bash
+
